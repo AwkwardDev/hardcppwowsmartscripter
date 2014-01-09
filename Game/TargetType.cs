@@ -53,33 +53,35 @@ namespace HardCPPWoWSmartScripter.Game
         /// </summary>
         public TargetTypes()
         {
-            AddType(0, "None", "", "", "");
-            AddType(1, "Self", "", "", "");
-            AddType(2, "Victim", "", "", "");
-            AddType(3, "Hostile second aggro", "", "", "");
-            AddType(4, "Hostile last aggro", "", "", "");
-            AddType(5, "Hostile random", "", "", "");
-            AddType(6, "Hostile random not top threat", "", "", "");
-            AddType(7, "Action Invoker", "", "", "");
-            AddType(8, "Position", "", "", "");
-            AddType(9, "Creature Range", "Entry", "Min Dist", "Max Dist");
-            AddType(10, "Creature Guid", "Guid", "Entry", "");
-            AddType(11, "Creature Distance", "Entry", "Max Dist", "");
-            AddType(12, "Stored", "ID", "", "");
-            AddType(13, "GameObject Range", "Entry", "Min Dist", "Max Dist");
-            AddType(14, "GameObject Guid", "Guid", "Entry", "");
-            AddType(15, "GameObject Distance", "Entry", "Max Dist", "");
-            AddType(16, "Invoker Party", "", "", "");
-            AddType(17, "Player Range", "Min Dist", "Max Dist", "");
-            AddType(18, "Player Distance", "Max Dist", "", "");
-            AddType(19, "Closet Creature", "Entry", "Max Dist", "Dead ? (0/1)");
-            AddType(20, "Closet GameObject", "Entry", "Max Dist", "");
-            AddType(21, "Closet Player", "Max Dist", "", "");
-            AddType(22, "Action Invoker Vehicle", "", "", "");
-            AddType(23, "Owner OR Summoner", "", "", "");
-            AddType(24, "Threat List", "", "", "");
-            AddType(25, "Closet Enemy", "Max Dist", "Player Only ? (0/1)", "");
-            AddType(26, "Closet Friendly", "Max Dist", "Player Only ? (0/1)", "");
+            AddType(0, "None",                          "",         "",         "");
+            AddType(1, "Self",                          "",         "",         "");
+            AddType(2, "Victim",                        "",         "",         "");
+            AddType(3, "Hostile second aggro",          "",         "",         "");
+            AddType(4, "Hostile last aggro",            "",         "",         "");
+            AddType(5, "Hostile random",                "",         "",         "");
+            AddType(6, "Hostile random not top threat", "",         "",         "");
+            AddType(7, "Action Invoker",                "",         "",         "");
+            AddType(8, "Position",                      "",         "",         "");
+            AddType(9, "Creature Range",                "Entry",    "Min Dist", "Max Dist");
+
+            AddType(10, "Creature Guid",        "Guid",         "Entry",        "");
+            AddType(11, "Creature Distance",    "Entry",        "Max Dist",     "");
+            AddType(12, "Stored",               "ID",           "",             "");
+            AddType(13, "GameObject Range",     "Entry",        "Min Dist",     "Max Dist");
+            AddType(14, "GameObject Guid",      "Guid",         "Entry",        "");
+            AddType(15, "GameObject Distance",  "Entry",        "Max Dist",     "");
+            AddType(16, "Invoker Party",        "",             "",             "");
+            AddType(17, "Player Range",         "Min Dist",     "Max Dist",     "");
+            AddType(18, "Player Distance",      "Max Dist",     "",             "");
+            AddType(19, "Closet Creature",      "Entry",        "Max Dist",     "Dead ? (0/1)");
+
+            AddType(20, "Closet GameObject",        "Entry",    "Max Dist",             "");
+            AddType(21, "Closet Player",            "Max Dist", "",                     "");
+            AddType(22, "Action Invoker Vehicle",   "",         "",                     "");
+            AddType(23, "Owner OR Summoner",        "",         "",                     "");
+            AddType(24, "Threat List",              "",         "",                     "");
+            AddType(25, "Closet Enemy",             "Max Dist", "Player Only ? (0/1)",  "");
+            AddType(26, "Closet Friendly",          "Max Dist", "Player Only ? (0/1)",  "");
         }
 
         /// <summary>

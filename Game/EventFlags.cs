@@ -46,11 +46,11 @@ namespace HardCPPWoWSmartScripter.Game
         public EventFlags()
         {
             AddFlag(0x01, "Not Repeatable", "Event can not repeat");
-            AddFlag(0x02, "Difficulty 0", "Event only occurs in normal dungeon");
-            AddFlag(0x04, "Difficulty 1", "Event only occurs in heroic dungeon");
-            AddFlag(0x08, "Difficulty 2", "Event only occurs in normal raid");
-            AddFlag(0x10, "Difficulty 3", "Event only occurs in heroic raid");
-            AddFlag(0x80, "Debug Only", "Event only occurs in debug build");
+            AddFlag(0x02, "Difficulty 0",   "Event only occurs in normal dungeon");
+            AddFlag(0x04, "Difficulty 1",   "Event only occurs in heroic dungeon");
+            AddFlag(0x08, "Difficulty 2",   "Event only occurs in normal raid");
+            AddFlag(0x10, "Difficulty 3",   "Event only occurs in heroic raid");
+            AddFlag(0x80, "Debug Only",     "Event only occurs in debug build");
         }
 
         /// <summary>

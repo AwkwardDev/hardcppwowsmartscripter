@@ -70,6 +70,7 @@ namespace HardCPPWoWSmartScripter.Game
             AddType(3, "Set Faction", "FactionID (or 0 for default)", "", "", "", "", "");
             AddType(4, "Morph To Entry Or Model", "Creature_template.entry", "Creature_template.modelID", "", "", "", "");
             AddType(5, "Sound", "Sound ID", "Only Self", "", "", "", "");
+
             AddType(6, "Play Emote", "Emote ID", "", "", "", "", "");
             AddType(7, "Fail Quest", "Quest ID", "", "", "", "", "");
             AddType(8, "Add Quest", "Quest ID", "", "", "", "", "");
