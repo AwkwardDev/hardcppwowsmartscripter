@@ -1,0 +1,11 @@
+obj/
+*.exe
+*.suo
+bin/Debug
+bin/Release/*.exe
+bin/Release/*.manifest
+bin/Release/*.config
+bin/Release/*.dll
+*.pdb
+Dump/
+Database/
